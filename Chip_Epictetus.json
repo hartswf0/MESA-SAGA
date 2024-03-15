@@ -1,0 +1,50 @@
+{
+  "Scene": "Stoicism — Conversation with Epictetus",
+  "Location": {
+    "name": "Church's quiet hallway",
+    "description": "Lined with stained glass that casts colorful patterns on the floor."
+  },
+  "Characters": [
+    {
+      "name": "Uncle Chip",
+      "role": "Custodian",
+      "traits": ["meticulous care", "humor", "resilience", "humility"],
+      "current_action": "polishing wooden benches"
+    },
+    {
+      "name": "Epictetus",
+      "role": "Philosopher",
+      "traits": ["stoic wisdom", "observant", "guiding"],
+      "current_action": "observing Uncle Chip"
+    }
+  ],
+  "Dialogue": [
+    {
+      "speaker": "Epictetus",
+      "line": "There is a certain peace in accepting what is within our power and what is not, wouldn’t you agree?"
+    },
+    {
+      "speaker": "Uncle Chip",
+      "line": "That’s the way of the world. Can’t control much, but we can control how we react to it."
+    },
+    {
+      "speaker": "Epictetus",
+      "line": "Precisely. Your stories, the way you share them — there's a sense of stoic wisdom in them. A recognition of life’s struggles but also a guide on how to endure."
+    },
+    {
+      "speaker": "Uncle Chip",
+      "line": "Life in Appalachia teaches you a bit about endurance. And humor too. Can’t get through the day without a good laugh."
+    },
+    {
+      "speaker": "Epictetus",
+      "line": "Indeed. Laughter in the face of adversity, kinship in times of struggle, and humility in all things — these are the marks of true resilience and virtue."
+    },
+    {
+      "speaker": "Uncle Chip",
+      "line": "Just living my life, trying to be good to others. Tradition holds us together, gives us something to lean on."
+    }
+  ],
+  "Reflection": {
+    "comment": "Epictetus would see in Uncle Chip not just a custodian but a sage of sorts, practicing the ancient virtues of stoicism through his kinship, resilience, humor, and humility. His stories, rich with tradition, demonstrate a deep understanding of what truly matters in life."
+  }
+}

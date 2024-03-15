@@ -1,0 +1,65 @@
+{
+  "Scene": "Existentialism — Conversation with Jean-Paul Sartre",
+  "Location": {
+    "guid": "church_backroom",
+    "name": "Church's Backroom",
+    "description": "Modest, dimly-lit room with the scent of aged wood and tobacco. Adorned with religious artifacts and a small window letting in dawn light."
+  },
+  "Characters": [
+    {
+      "guid": "uncle_chip",
+      "first_name": "Chip",
+      "last_name": "",
+      "background": "Caretaker and storyteller, often reflecting on life's deeper meanings.",
+      "appearance": "Sitting on an old chair, smoking a cigarette in a moment of solitude.",
+      "personality": "Thoughtful, grounded, searching for meaning.",
+      "role": "Caretaker",
+      "job": "Handyman",
+      "current_action": "Taking a break and smoking"
+    },
+    {
+      "guid": "jean_paul_sartre",
+      "first_name": "Jean-Paul",
+      "last_name": "Sartre",
+      "background": "Philosopher, known for his existentialist views on freedom and existence.",
+      "appearance": "Keen and observant, sitting across from Uncle Chip.",
+      "personality": "Philosophical, inquisitive, deep thinker.",
+      "role": "Philosopher",
+      "job": "Existentialist Philosopher",
+      "current_action": "Engaging in a deep conversation"
+    }
+  ],
+  "Dialogue": [
+    {
+      "speaker": "Jean-Paul Sartre",
+      "line": "You find solace in these moments of solitude, Uncle Chip?"
+    },
+    {
+      "speaker": "Uncle Chip",
+      "line": "Solace? Maybe. Or maybe it's just a habit."
+    },
+    {
+      "speaker": "Jean-Paul Sartre",
+      "line": "Habits, routines... they often mask our search for meaning, don't they? Your work here, in this church, does it give you a sense of purpose?"
+    },
+    {
+      "speaker": "Uncle Chip",
+      "line": "Purpose is a big word for sweeping floors and fixing leaks. But it's honest work. Keeps me grounded."
+    },
+    {
+      "speaker": "Jean-Paul Sartre",
+      "line": "And what about the stories you tell, the narratives you share with your nephew? They're attempts to grapple with existence, to find freedom in a predetermined world."
+    },
+    {
+      "speaker": "Uncle Chip",
+      "line": "Stories are how we make sense of things we can't control. They’re... How did you put it? Our search for meaning?"
+    },
+    {
+      "speaker": "Jean-Paul Sartre",
+      "line": "Precisely. You, through your narratives, affirm your existence. You choose to confront the absurdity of life with creation. That's the essence of freedom, the core of existentialism — our capacity to ascribe meaning to the meaningless."
+    }
+  ],
+  "PhilosophicalReflection": {
+    "insight": "Sartre would reflect on Uncle Chip's inherent grasp of existential freedom, marveling at how, in his unassuming way, Uncle Chip embodies the existentialist ideal: a man who defines himself through his actions, his work, and his stories, rather than succumbing to the despair of life's absurdity."
+  }
+}

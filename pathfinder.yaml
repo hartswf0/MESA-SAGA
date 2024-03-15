@@ -1,0 +1,124 @@
+
+
+
+//SAMPLE INTERACTION FLOW
+
+
+//PLACE
+{
+  "guid": "fire_lit_room",
+  "name": "Fire-Lit Room",
+  "description": "A shadowy, fire-lit room lined with shelves of old books and artifacts, fostering philosophical discussions among its occupants."
+}
+
+
+
+
+name: go_to
+destination: "philosophers_corner"
+goal: "Join the philosophical discussion"
+
+
+{
+  "skill": "converse_with",
+  "parameters": {
+    "persona_guid": "heidegger",
+    "topic": "Technology and Humanity",
+    "context": "Uncle Chip shares a story from his book.",
+    "goal": "Explore technology's impact on human narratives."
+  }
+}
+
+name: converse_with
+persona_guid: "heidegger"
+topic: "Existentialism and Technology"
+context: "In the fire-lit room, discussing the human essence."
+goal: "Gain deeper insight into technology's role in humanity"
+
+{
+  "skill": "reflect",
+  "parameters": {
+    "focus": "Heidegger's Being and Time",
+    "result": "Insights on technology's role in human existence.",
+    "goal": "Deepen the narrative on humanity and technology."
+  }
+}
+
+
+
+name: wait
+duration: "10"
+goal: "Observe the philosophical exchange and gather thoughts"
+
+
+name: reflect
+focus: "The impact of stories on human understanding"
+result: "A new perspective on narrative's role in shaping consciousness"
+goal: "Deepen understanding of storytelling"
+
+
+name: interact
+item_guid: "hand_carved_chair"
+interaction: "sit"
+goal: "Participate in the discussion comfortably"
+
+
+name: take_to
+guid: "book_shelf"
+destination: "philosophers_corner"
+goal: "Share knowledge from a specific book with the group"
+
+
+//BOOK SHELF ITEMS
+
+- guid: "heidegger_book"
+  location: "fire_lit_room"
+  affordances:
+    - "explore_being"
+    - "understand_dasein"
+    - "contemplate_time"
+
+- guid: "geertz_book"
+  location: "fire_lit_room"
+  affordances:
+    - "analyze_cultures"
+    - "study_symbolic_systems"
+    - "interpret_meanings"
+
+- guid: "luhmann_book"
+  location: "fire_lit_room"
+  affordances:
+    - "examine_social_systems"
+    - "understand_autopoiesis"
+    - "explore_system_theory"
+
+- guid: "uncle_chip_stories"
+  location: "fire_lit_room"
+  affordances:
+    - "relive_western_adventures"
+    - "learn_life_lessons"
+    - "reflect_on_human_conditions"
+
+
+//ACTIONS WITH BOOKS
+{
+  "skill": "interact",
+  "parameters": {
+    "item_guid": "geertz_book",
+    "interaction": "analyze_cultures",
+    "goal": "Understand cultural implications in AI narratives."
+  }
+}
+
+{
+  "skill": "reflect",
+  "parameters": {
+    "focus": "Luhmann's Social Systems",
+    "result": "Considerations on societal systems in storytelling.",
+    "goal": "Reflect on societal and AI narrative co-evolution."
+  }
+}
+
+
+
+    
